@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dersler/2021-2022 Bahar/Beltek Android/beltek_projects/beltekApps-beltek11/beltekApps-beltek11/app/src/main/res/drawable/rounded_button.xml" value="0.191" />
+        <entry key="..\:/Dersler/2021-2022 Bahar/Beltek Android/beltek_projects/beltekApps-beltek11/beltekApps-beltek11/app/src/main/res/layout/activity_ayni_mi.xml" value="0.33" />
+        <entry key="..\:/Dersler/2021-2022 Bahar/Beltek Android/beltek_projects/beltekApps-beltek11/beltekApps-beltek11/app/src/main/res/layout/activity_hangisi_buyuk.xml" value="0.3867595818815331" />
+        <entry key="..\:/Dersler/2021-2022 Bahar/Beltek Android/beltek_projects/beltekApps-beltek11/beltekApps-beltek11/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Dersler/2021-2022 Bahar/Beltek Android/beltek_projects/beltekApps-beltek11/beltekApps-beltek11/app/src/main/res/layout/activity_not_giris.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/beltek11/app/src/main/res/drawable-v24/home.xml" value="0.3035" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/beltek11/app/src/main/res/layout/activity_ayni_mi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/beltek11/app/src/main/res/layout/activity_main.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
