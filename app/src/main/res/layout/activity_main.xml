@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="İlk BELTEK uygulamasına hoşgeldiniz."
+        android:layout_marginTop="60dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/dancing_script_regular"
+        android:textColor="@color/yale_blue"
+        />
+
+    <TextView
+        android:id="@+id/secimText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintTop_toBottomOf="@id/welcomeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Lütfen seçiminizi yapınız"
+        android:layout_marginTop="15dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/dancing_script_regular"
+        android:textColor="@color/maroon_x"
+        />
+
+    <Button
+        android:id="@+id/ayniMi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintWidth_percent="0.30"
+        app:layout_constraintTop_toBottomOf="@+id/secimText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="50dp"
+        android:text="İki sayı Aynı mı?"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/rajah"
+        />
+
+    <Button
+        android:id="@+id/hangisiBuyuk"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintWidth_percent="0.30"
+        app:layout_constraintTop_toBottomOf="@+id/secimText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/maroon_x"
+        android:text="İki sayıdan hangisi büyük?"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/notDurumu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintWidth_percent="0.30"
+        app:layout_constraintTop_toBottomOf="@+id/ayniMi"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/ghost_white"
+        android:text="Not Giriş Ekranı"
+        android:textColor="@color/eerie_black"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/otoparkUcret"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintWidth_percent="0.30"
+        app:layout_constraintTop_toBottomOf="@+id/hangisiBuyuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/eerie_black"
+        android:text="Otopark Ücret Hesabı"
+        android:textColor="@color/ghost_white"
+        android:textSize="20sp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
