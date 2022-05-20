@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/activity_fragment_tab.xml" value="0.14261460101867574" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/activity_main.xml" value="0.2725430597771023" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/fragment1.xml" value="0.27887537993920974" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/fragment2.xml" value="0.27887537993920974" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/fragment_whatsapp1.xml" value="0.5744791666666667" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/fragment_whatsapp2.xml" value="0.5744791666666667" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/beltek14/app/src/main/res/layout/fragment_whatsapp3.xml" value="0.5744791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
