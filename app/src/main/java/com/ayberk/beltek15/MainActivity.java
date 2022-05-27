@@ -58,7 +58,21 @@ public class MainActivity extends AppCompatActivity {
     *
     *
     * Sonrasında Layout -> New -> Layout Resource File -> nav_header diyerek navigation barımızın
-    * üst kısmında kalacak olan bölgenin oluşturulmasını sağlıyoruz.
+    * üst kısmında kalacak olan bölgenin oluşturulmasını sağlıyoruz. Bu barın içerisini daha önce
+    * de kullandığımız tasarım ögelerini kullanarak oluşturacağız.
+    *
+    * Navigation Drawer'ın ögelerini oluşturduğumuza göre artık bu Drawer'ı ana ekranımıza
+    * ekleyebiliriz. Bunun için activity_main.xml dosyamızın içerisine giderek, yukarıdaki
+    * ConstraintLayout kısmını android.drawerlayout.widget.DrawerLayout şeklinde değiştiriyoruz.
+    *
+    * Daha sonrasında eklediğimiz ögeleri ve yaptığımız değişiklikleri bu .xml dosyasını
+    * incelerken değerlendirebiliriz.
+    *
+    * Bu işlemlerin arkasından ise Styles.xml dosyasında değişiklikler yapmamız gerekiyor.
+    * Öncelikle AppBar'ımızın tasarımımız ile uyumlu olması için Custom bir App bar ekleyeceğiz.
+    * Bunun için Android Studio'nun bize verdiği varsayılan AppBar'ı kaldırıyoruz. Sonrasında ise
+    * yeni eklediğimiz AppBar'ın renginin beyaz olmasını sağlıyoruz.
+    *
     *
     *
     * */
@@ -68,17 +82,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //Tanımlamış olduğumuz ToolBar, DrawerLayout ve NavigationView ögelerini başlatıyoruz.
         MaterialToolbar toolbar = findViewById(R.id.topAppbar);
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.navigation_view);
 
+        //Toolbar'ımıza tıklanması halinde DrawerLayout'un açılmasını sağlayan kod.
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 drawerLayout.openDrawer(GravityCompat.START);
             }
         });
+
+        //NavigationView içerisinde seçilen ögeye ait olan ekranın açılmasını sağlayacağımız kısım.
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
