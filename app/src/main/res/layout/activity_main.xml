@@ -22,7 +22,7 @@
                 android:id="@+id/topAppbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:title="Ayberk's Twitter"
+                app:title="BELTEK's Twitter"
                 app:navigationIcon="@drawable/menu"
                 android:background="@color/white"
                 />

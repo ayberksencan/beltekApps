@@ -30,19 +30,23 @@
     <item
         android:id="@+id/settings"
         android:icon="@drawable/settings"
-        android:title="Ayarlar"
-        />
+        android:title="Ayarlar"/>
 
     <item
         android:id="@+id/profile"
         android:icon="@drawable/person"
-        android:title="Profil"
-        >
+        android:title="Profil">
             <menu>
                 <item
                     android:id="@+id/nav_login"
                     android:icon="@drawable/login"
                     android:title="Giriş Yap"
+                    />
+                <item
+                    android:id="@+id/g5"
+                    android:icon="@drawable/g5"
+                    android:title="5G Ayarları"
+
                     />
             </menu>
     </item>

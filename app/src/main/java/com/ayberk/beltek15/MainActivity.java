@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /*
-    * Bu dersimizde ekranımızın sağ kısmına Navigation Drawer ekleme işlemini gerçekleştireceğiz.
+    * Bu dersimizde ekranımızın sol kısmına Navigation Drawer ekleme işlemini gerçekleştireceğiz.
     * Bunu yapabilmek için öncelikle build.gradle(Module) içerisine import etmemiz gereken
     * Kütüphaneler var.
     *
@@ -30,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
     * Not: Son eklenen sürüm bu örnek hazırlandığı zaman 1.6.0'dı ancak sizin için böyle olmayabilir.
     * Bu durumda Android Studio sizi uyaracaktır.
     *
-    *Ayrıca, daha sonra Navigation Drawer ögemizin üst tarafında bir kullanıcı resmi göstermek için
+    * Ayrıca, daha sonra Navigation Drawer ögemizin üst tarafında bir kullanıcı resmi göstermek için
     *
     * implementation 'de.hdodenhof:circleimageview:3.1.0'
     *
-    *ögesini de implement ediyoruz.
+    * ögesini de implement ediyoruz.
     *
     * Drawables olarak Navigation Drawer'da kullanacağımız Icon'ları ekleyeceğiz.
     * Daha önce yaptığımız gibi Drawables -> New -> Vector Asset şeklinde devam edeceğiz.
     *
     *
-    *Res -> New -> Android Resource File sonrasında ise Resource Type -> Menu
+    * Res -> New -> Android Resource File sonrasında ise Resource Type -> Menu
     *
     * Altına her bir menü ögesini item etiketleri içerisinde ekliyoruz. Sonrasında da üsetteki
     * menü etiketinin içerisine
@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     * Bunun için Android Studio'nun bize verdiği varsayılan AppBar'ı kaldırıyoruz. Sonrasında ise
     * yeni eklediğimiz AppBar'ın renginin beyaz olmasını sağlıyoruz.
     *
+    * <------------------------------Navigation Drawer Tasarım Bölüm Sonu------------------------->
     *
     *
     * */

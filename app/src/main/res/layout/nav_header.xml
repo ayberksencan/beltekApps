@@ -84,12 +84,12 @@
         android:layout_marginStart="5dp"
         />
 
-
     <View
         app:layout_constraintTop_toBottomOf="@id/follower_txt"
+        style="@style/line"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@color/altCizgi"
-        style="@style/line"
+
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
