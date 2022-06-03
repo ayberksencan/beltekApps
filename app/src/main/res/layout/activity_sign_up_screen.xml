@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".SignUpScreen">
+
+    <TextView
+        android:id="@+id/loginTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="75sp"
+        android:fontFamily="@font/always_forever"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        />
+
+    <EditText
+        android:id="@+id/usernameEdt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/icon_person"
+        android:drawablePadding="10dp"
+        android:hint="@string/username"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/loginTxt"
+        app:layout_constraintStart_toStartOf="@id/loginTxt"
+        app:layout_constraintTop_toBottomOf="@id/loginTxt"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <EditText
+        android:id="@+id/emailEdt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/icon_mail"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/usernameEdt"
+        app:layout_constraintStart_toStartOf="@id/usernameEdt"
+        app:layout_constraintTop_toBottomOf="@id/usernameEdt"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <EditText
+        android:id="@+id/passwdEdt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/icon_security"
+        android:drawablePadding="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/emailEdt"
+        app:layout_constraintStart_toStartOf="@id/emailEdt"
+        app:layout_constraintTop_toBottomOf="@id/emailEdt"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.7"
+        android:background="@drawable/button_bg_white"
+        android:text="@string/save"
+        android:fontFamily="sans-serif-light"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@id/passwdEdt"
+        app:layout_constraintStart_toStartOf="@id/loginTxt"
+        app:layout_constraintEnd_toEndOf="@id/loginTxt"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/button_bg_transparent2"
+        android:backgroundTint="@color/black"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
